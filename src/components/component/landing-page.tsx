@@ -95,9 +95,9 @@ export default function ModernGreenEduPlatform() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="mx-auto max-w-2xl text-center"
           >
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Revolucione sua Gestão Educacional</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Evolua sua Nota</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Descubra como o EduVerde pode transformar sua instituição em um oásis de aprendizado sustentável e eficiente.
+              Descubra como o Aprova UFC pode transformar seu aprendizado.
             </p>
           </motion.div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -116,7 +116,7 @@ export default function ModernGreenEduPlatform() {
                 {
                   icon: <Leaf className="h-8 w-8 text-green-600" />,
                   title: "Inscrição Gratuita",
-                  description: "Não será necessario pagar taxa de inscrição, todo o cursos será totalmente gratuito."
+                  description: "Não será necessario pagar taxa de inscrição, todo o curso será totalmente gratuito."
                 }
               ].map((feature, index) => (
                 <motion.div
@@ -154,7 +154,7 @@ export default function ModernGreenEduPlatform() {
               Junte-se a nós nesta jornada com o Aprova UFC e eleve seu aprendizado a novos patamares de excelência e responsabilidade.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg">
+              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg" onClick={()=> window.open('https://aprova-ufc-portal-aluno.vercel.app/', '_blank')}>
                 Realize sua inscrição
               </Button>
             </div>
