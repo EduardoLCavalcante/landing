@@ -154,7 +154,7 @@ export default function ModernGreenEduPlatform() {
               Junte-se a nós nesta jornada com o Aprova UFC e eleve seu aprendizado a novos patamares de excelência e responsabilidade.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg" onClick={()=> window.open('https://aprova-ufc-portal-aluno.vercel.app/', '_blank')}>
+              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg" onClick={()=> window.open('https://aprovaufc.vercel.app/', '_blank')}>
                 Realize sua inscrição
               </Button>
             </div>
